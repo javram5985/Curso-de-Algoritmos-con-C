@@ -1,0 +1,25 @@
+Archivos de cabeceras de la biblioteca ANSI C
+<assert.h>	Contiene la macro assert (aserción), utilizada para detectar errores lógicos y otros tipos de fallos en la depuración de un programa.
+<complex.h>	Conjunto de funciones para manipular números complejos (nuevo en C99).
+<ctype.h>	Contiene funciones para clasificar caracteres según sus tipos o para convertir entre mayúsculas y minúsculas independientemente del conjunto de caracteres (típicamente ASCII o alguna de sus extensiones).
+<errno.h>	Para analizar los códigos de error devueltos por las funciones de biblioteca.
+<fenv.h>	Para controlar entornos en coma flotante (nuevo en C99).
+<float.h>	Contiene la definición de constantes que especifican ciertas propiedades de la biblioteca de coma flotante, como la diferencia mínima entre dos números en coma flotante (_EPSOLON), el número máximo de dígitos de precisión (_DIG), o el rango de valores que se pueden representar (_MIN, _MAX).
+<inttypes.h>	Para operaciones de conversión con precisión entre tipos enteros (nuevo en C99).
+<iso646.h>	Para utilizar los conjuntos de caracteres ISO 646 (nuevo en NA1).
+<limits.h>	Contiene la definición de constantes que especifican ciertas propiedades de los tipos enteros, como rango de valores que se pueden representar (_MIN, 	            _MAX).
+<locale.h>	Para la función setlocale() y las constantes relacionadas. Se utiliza para seleccionar el entorno local apropiado (configuración regional).
+<math.h>	Contiene las funciones matemáticas comunes.
+<setjmp.h>	Declara las macros setjmp y longjmp para proporcionar saltos de flujo de control de programa no locales.
+<signal.h>	Para controlar algunas situaciones excepcionales como la división por cero.
+<stdarg.h>	Posibilita el acceso a una cantidad variable de argumentos pasados a una función.
+<stdbool.h>	Para el tipo booleano (nuevo en C99).
+<stdint.h>	Para definir varios tipos enteros (nuevo en C99).
+<stddef.h>	Para definir varios tipos de macros de utilidad.
+<stdio.h>	Proporciona el núcleo de las capacidades de entrada/salida del lenguaje C (incluye la venerable función printf).
+<stdlib.h>	Para realizar ciertas operaciones como conversión de tipos, generación de números pseudo-aleatorios, gestión de memoria dinámica, control de procesos, funciones de entorno, de señalización (??), de ordenación y búsqueda.
+<string.h>	Para manipulación de cadenas de caracteres.
+<tgmath.h>	Contiene funcionalidades matemáticas de tipo genérico (type-generic) (nuevo en C99).
+<time.h>	Para tratamiento y conversión entre formatos de fecha y hora.
+<wchar.h>	Para manipular flujos de datos anchos y varias clases de cadenas de caracteres anchos (2 o más bytes por carácter), necesario para soportar caracteres de diferentes idiomas (nuevo en NA1).
+<wctype.h>	Para clasificar caracteres anchos (nuevo en NA1).
