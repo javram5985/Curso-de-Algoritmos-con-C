@@ -1,9 +1,0 @@
-El algoritmo de Dijkstra encuentra la ruta mas corta entre dos puntos
-Diferencia arbol y grafos:
-	El arbol tiene una regla basica, que siempre debe iniciar con una raiz o un rout, una base, despues comienza a ramificarce. La direccion en la que el movimiento se genera siempre va ir en la misma direccion. El arbol siempre tiene una direccion
-	Los grafos son una estructura que nos permiten manejar una cantidad de objetos que van a estar relacionados entre ellos. Tendremos los nodos (los puntos) y las relaciones entre sí (las líneas que los unen). V: set de nodos (tambien llamados vertices), E: enlaces o edges. G = (V, E). Las conecciones de un grafo pueden o pueden no tener una direccion. 
-
-Un algoritmo de busqueda sera cualquier algoritmo que obtenga un dato especifico dentro de una estructura de datos.
-Tipos:
-	Linear Search
-	Binary Search, para que funcione hay que tener un arreglo ordenado
